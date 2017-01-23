@@ -25,9 +25,6 @@ $prods = require_once'Products.php';
 		<tr>
 			<?php 
 			foreach ($prods as $prod) :?>
-
-
-			
 			<td><?= $prod->getId()?></td>
 			<td><?= $prod->getName()?></td>
 			<td><?= $prod->getPrice()?>€</td>
