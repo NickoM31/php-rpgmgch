@@ -1,28 +1,28 @@
 <?php 
 
 class User{
-	private $_email;
-	private $_id;
-	private $_createdAt;
+	private $email;
+	private $id;
+	private $createdAt;
 
 
 	public function __construct($email,$id,$createdAt){
-		$this->_email = $email;
-		$this->_id = $id;
-		$this->_createdAt = $createdAt;
+		$this->email = $email;
+		$this->id = $id;
+		$this->createdAt = $createdAt;
 
 	}
 	
 	public function getEmail(){
-		return $this->_email;
+		return $this->email;
 	}
 	
 	public function getId(){
-		return $this->_id;
+		return $this->id;
 	}
 	
 	public function getCreatedAt(){
-		return $this->_createdAt;
+		return $this->createdAt;
 	}
 	
 }

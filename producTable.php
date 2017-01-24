@@ -20,8 +20,6 @@ $prods = require_once'Products.php';
 		<th>Prix</th>
 		<th>Producteur/Marque</th>
 		<th>Dlc</th>
-		
-
 		<tr>
 			<?php 
 			foreach ($prods as $prod) :?>
@@ -35,8 +33,6 @@ $prods = require_once'Products.php';
 				<td><?= $prod->getBrand()?></td>
 			<?php endif ?>
 		</tr>
-
-
 	<?php endforeach;?>
 </table>
 </body>
